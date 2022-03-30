@@ -1,5 +1,7 @@
 @import './mixins';
+//boton sleep
 .btn-sleep {
+	z-index: 10;
 	width: 186px;
 	height: 69px;
 	display: flex;
@@ -76,6 +78,7 @@
 		line-height: 79px;
 	}
 }
+
 .btn-sleep_img {
 	object-fit: cover;
 	object-position: center;
@@ -93,4 +96,46 @@
 		width: 89.83px;
 		height: 89.83px;
 	}
+}
+
+//boton pausado
+
+.position-clock-circle{
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	
+}
+.position-clock-img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	
+}
+.position-clock-text{
+	margin-top: 0;
+	display: flex;
+
+	justify-content: center;
+	margin-top: 12vw;
+	@include phone() {
+		
+	}
+	@include tablet() {
+	}
+	@include desktop() {
+	 }
+
 }

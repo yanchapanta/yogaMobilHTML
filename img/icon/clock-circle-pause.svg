@@ -1,0 +1,37 @@
+<svg width="316" height="314" viewBox="0 0 316 314" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_271_24213" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-1" width="316" height="315">
+<path d="M14.0688 92.6089L301.931 220.773" stroke="black"/>
+<path d="M30.5375 64.084L285.462 249.298" stroke="black"/>
+<path d="M52.577 39.6069L263.423 273.775" stroke="black"/>
+<path d="M79.2239 20.2466L236.776 293.135" stroke="black"/>
+<path d="M109.314 6.8501L206.686 306.532" stroke="black"/>
+<path d="M141.531 0.00195312L174.469 313.38" stroke="black"/>
+<path d="M174.469 0.00146484L141.531 313.38" stroke="black"/>
+<path d="M206.686 6.8501L109.314 306.532" stroke="black"/>
+<path d="M236.776 20.2461L79.2238 293.135" stroke="black"/>
+<path d="M263.423 39.606L52.5769 273.774" stroke="black"/>
+<path d="M285.462 64.0835L30.5376 249.297" stroke="black"/>
+<path d="M301.931 92.6079L14.0688 220.772" stroke="black"/>
+<path d="M312.109 123.933L3.89069 189.447" stroke="black"/>
+<path d="M315.552 156.69L0.447779 156.69" stroke="black"/>
+<path d="M312.109 189.447L3.89069 123.933" stroke="black"/>
+<path d="M301.931 220.772L14.0688 92.6079" stroke="black"/>
+<path d="M285.462 249.297L30.5374 64.0836" stroke="black"/>
+<path d="M263.423 273.774L52.5769 39.6061" stroke="black"/>
+<path d="M236.776 293.134L79.2238 20.2458" stroke="black"/>
+<path d="M206.686 306.532L109.314 6.84957" stroke="black"/>
+<path d="M174.469 313.379L141.531 0.000607627" stroke="black"/>
+<path d="M141.531 313.378L174.469 0.000119345" stroke="black"/>
+<path d="M109.314 306.531L206.686 6.84909" stroke="black"/>
+<path d="M79.2238 293.134L236.776 20.2453" stroke="black"/>
+<path d="M52.577 273.773L263.423 39.6052" stroke="black"/>
+<path d="M30.5375 249.296L285.462 64.0826" stroke="black"/>
+<path d="M14.0688 220.772L301.931 92.6079" stroke="black"/>
+<path d="M3.89062 189.447L312.109 123.933" stroke="black"/>
+<path d="M0.447754 156.69H315.552" stroke="black"/>
+<path d="M3.89062 123.935L312.109 189.448" stroke="black"/>
+</mask>
+<g mask="url(#mask0_271_24213)">
+<circle cx="158.563" cy="151.689" r="128.731" stroke="white" stroke-width="7"/>
+</g>
+</svg>
