@@ -1,0 +1,125 @@
+.container-1 {
+  padding: 1rem;
+}
+@media only screen and (min-width: 37.5em) {
+  .container-1 {
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .container-1 {
+    padding: 1rem 3rem;
+  }
+}
+
+.size-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.size-1-icon {
+  width: 107px;
+  height: 68px;
+}
+
+.title-text {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(48px + 1vw);
+  line-height: 72px;
+  color: var(--white-color);
+}
+
+.title-1-text {
+  font-family: var(--font-rowdies);
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(18px + 1vw);
+  line-height: 22px;
+  color: var(--black-color);
+}
+
+.title-2-text {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--black-color);
+}
+
+.title-1-light-text {
+  font-family: var(--font-rowdies);
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(18px + 1vw);
+  line-height: 22px;
+  color: var(--black-color);
+  font-weight: 300;
+}
+
+.play-text {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(9px + 1vw);
+  line-height: 13px;
+  color: var(--black-color);
+}
+
+.row-text {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(14px + 1vw);
+  colorr: var(--black-color);
+}
+
+.card-title-text {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(14px + 1vw);
+  line-height: 21px;
+  color: var(--white-color);
+}
+
+.card-min-text {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(9px + 1vw);
+  line-height: 13px;
+  color: var(--black-color);
+}
+
+.pagraph-yoga-text {
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(24px + 1vw);
+  line-height: 36px;
+}
+
+.card.gb-blue, .gb-blue {
+  background-color: var(--background-azul);
+}
+
+.gb-pinking {
+  background-image: linear-gradient(125.95deg, #FFCAB3 5.32%, #71361C 92.27%);
+}
+
+.gb-pinking {
+  background-image: linear-gradient(125.95deg, #FFCAB3 5.32%, #71361C 92.27%);
+}
+
+.hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.hover:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=utilities.css.map */

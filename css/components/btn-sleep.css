@@ -1,0 +1,119 @@
+.btn-sleep {
+  width: 186px;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 5% 0% 5%;
+  cursor: pointer;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid black;
+  background: linear-gradient(90deg, rgba(196, 196, 196, 0.63) 0%, rgba(196, 196, 196, 0) 96.31%);
+  backdrop-filter: blur(15.5897px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 5vw;
+}
+@media only screen and (min-width: 18.75em) {
+  .btn-sleep {
+    width: 186px;
+    height: 69px;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .btn-sleep {
+    width: 362.46px;
+    height: 134.46px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .btn-sleep {
+    width: 696.2px;
+    height: 258.27px;
+  }
+}
+
+.btn-sleep_info {
+  display: flex;
+  flex-direction: column;
+}
+.btn-sleep_info p {
+  margin: 0;
+}
+
+.btn-sleep_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  color: var(--white-color);
+}
+@media only screen and (min-width: 18.75em) {
+  .btn-sleep_text {
+    line-height: 27px;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .btn-sleep_text {
+    font-size: 35.0769px;
+    line-height: 53px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .btn-sleep_text {
+    font-size: 67.3743px;
+    line-height: 101px;
+  }
+}
+
+.btn-sleep_min {
+  font-family: "Poppins";
+  font-style: normal;
+  color: var(--white-color);
+  font-weight: 500;
+}
+@media only screen and (min-width: 18.75em) {
+  .btn-sleep_min {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .btn-sleep_min {
+    font-size: 27.2821px;
+    line-height: 41px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .btn-sleep_min {
+    font-size: 52.4022px;
+    line-height: 79px;
+  }
+}
+
+.btn-sleep_img {
+  object-fit: cover;
+  object-position: center;
+  width: 24px;
+  height: 24px;
+}
+@media only screen and (min-width: 18.75em) {
+  .btn-sleep_img {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  .btn-sleep_img {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .btn-sleep_img {
+    width: 89.83px;
+    height: 89.83px;
+  }
+}
+
+/*# sourceMappingURL=btn-sleep.css.map */
