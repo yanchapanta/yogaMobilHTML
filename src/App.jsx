@@ -1,9 +1,3 @@
-# Proyecto Yoga en HTML Y REACT FOLOWING CRONOLOGY
-
-### Ingresando opciones de menú de link react-router-dom
-En casso de error lanzara a la página por defecto
-'<Route path="*" element={<FourOFour />} />'
-```js
 import './css/styles.css';
 import { Fragment } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -18,7 +12,7 @@ function App() {
 				<Routes>
 					<Route path="/" exact element={<Welcome />}></Route>
 					<Route path="/login" element={<Login />} />
-					<Route path="*" element={<FourOFour />} />
+          <Route path='*' element={<FourOFour/>}/>
 				</Routes>
 			</BrowserRouter>
 		</Fragment>
@@ -26,4 +20,3 @@ function App() {
 }
 
 export default App;
-```
