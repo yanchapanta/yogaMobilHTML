@@ -20,8 +20,13 @@ import menuHome from './menu/home.svg';
 import menuNotification from './menu/Notification.svg';
 import menuPlayBold from './menu/playBold.svg';
 import menuSearch from './menu/search.svg';
+import clockCirclePause from './icon/clock-circle-pause.svg';
+import btnPauseCircleOutline from './icon/btn-pause-circle-outline.svg';
+
 
 const images = {
+	btnPauseCircleOutline: btnPauseCircleOutline,
+	clockCirclePause: clockCirclePause,
 	iconEmail: iconEmail,
 	menuHome: menuHome,
 	menuNotification: menuNotification,

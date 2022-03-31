@@ -4,11 +4,12 @@
 .welcome {
 	background-image: var(--gradient-1-color);
 	width: 100vw;
-	height: 100vh;
+	// height: 100vh;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	
 }
 .header-image-container {
 	width: inherit;
