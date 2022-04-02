@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador dos</title>
+</head>
+
+<body>
+    <div id="reloj" />
+    <div id="temporizador" />
+    <script>
+        function muestraReloj() {
+            var fechaHora = new Date();
+            var horas = fechaHora.getHours();
+            var minutos = fechaHora.getMinutes();
+            var segundos = fechaHora.getSeconds();
+
+            if (horas < 10) { horas = '0' + horas; }
+            if (minutos < 10) { minutos = '0' + minutos; }
+            if (segundos < 10) { segundos = '0' + segundos; }
+
+            document.getElementById("reloj").innerHTML = horas + ':' + minutos + ':' + segundos;
+        }
+
+        // Valores de entrada,sV === 0
+        let horas = 0;
+        let h = horas;
+        let hV = horas;
+        let minutos = 0;
+        let m = minutos;
+        let mV = minutos;
+        let segundos = 3;
+        let s = segundos + 1;
+        let sV = segundos + 1;
+        // para que se inicialice con 00 en el print
+        if (mV < 10) { m = '0' + m; }
+        if (hV < 10) { h = '0' + h; }
+        function temporizadorReloj() {
+            s -= 1;
+            sV -= 1;
+            // segundo decrementar
+            if (s < 0) {
+                //minuto
+                m -= 1;
+                mV -= 1;
+                if (mV > 0) {
+                    if (mV < 10) { m = '0' + m; }
+                } else {
+                    m = '0' + 0;
+                }
+                s = 60
+                sV = 60
+            }
+            // hora decrementar
+            if (mV === 0 && sV === 0) {
+                h -= 1;
+                hV -= 1;
+                if (hV > 0) {
+                    if (hV < 10) { h = '0' + h; }
+                } else {
+                    h = '0' + 0;
+                }
+                m = 60
+                mV = 60
+
+            }
+            // Probando con valores
+            //   console.log('h ',hV < 0);
+            //   console.log('m ',mV > 0);
+            //   console.log('s ',sV === 0);
+
+            //HORA MINUTO SEGUNDO FINALIZADO
+            if (hV < 0 && mV > 0 && sV === 0) {
+                console.log('hora finalizada');
+            }
+            // imprime segundo
+            if (sV > 0) {
+                if (s < 10) { s = '0' + s; }
+            } else {
+                s = '0' + 0;
+            }
+
+            const letra = 'valore predeterminado';
+            document.getElementById("temporizador").innerHTML = h + ':' + m + ':' + s;
+        }
+        window.onload = function () {
+            setInterval(temporizadorReloj, 1000);
+        }
+
+    </script>
+</body>
+
+</html>

@@ -2,6 +2,7 @@ import { Fragment, useState } from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 import img from '../../img/image';
 import mp3 from '../../video/video';
+import Timer from './timer';
 
 const Home = () => {
 	const [modeSleep, setModeSleep] = useState(false);
@@ -61,7 +62,9 @@ const Home = () => {
 					</div>
 					{modeSleep ? (
 						<div class="position-clock-circle">
-							<p class="btn-sleep_text position-clock-text">15:00:00</p>
+							<p class="btn-sleep_text position-clock-text">
+								<Timer/>
+								</p>
 							<ReactAudioPlayer
 								style={{
 									opacity: 0,
